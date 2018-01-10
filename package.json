@@ -1,0 +1,31 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "boilerplate-template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/117653599/boilerplate-template.git"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/117653599/boilerplate-template/issues"
+  },
+  "homepage": "https://github.com/117653599/boilerplate-template#readme",
+  "devDependencies": {
+    "async": "^2.6.0",
+    "consolidate": "^0.15.0",
+    "handlebars": "^4.0.11",
+    "metalsmith": "^2.3.0",
+    "promise": "^8.0.1",
+    "rimraf": "^2.6.2"
+  }
+}
